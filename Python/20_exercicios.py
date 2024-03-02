@@ -214,7 +214,7 @@ while True:
     if len(letras_na_frase) == 26:
         print("A string é um pangrama :)")
     else:
-        print("A string não é um pangrama :(")
+        print("A String não é um pangrama :(")
 
 
 
@@ -271,7 +271,7 @@ while True:
             break
     
 
-    repetir = input("Deseja reiniciar tudo se novo? (s/n) ")
+    repetir = input("Deseja reiniciar tudo de novo? (s/n) ")
     if repetir.lower() == 's':
         reiniciar = True
     else:
